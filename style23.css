@@ -1,0 +1,113 @@
+
+/* Basic Page Design */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    margin: 0;
+    padding: 20px;
+    color: #222;
+}
+
+/* Header Design */
+header {
+    background-color: #1f3864;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Main Container */
+.container {
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+/* Input Area */
+.input-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+.input-section h2 {
+    color: #1f3864;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Buttons */
+button {
+    background-color: #1f3864;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #345b91;
+}
+
+/* Result Area */
+.result-box {
+    background-color: #e8f0fe;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #1f3864;
+    border-radius: 8px;
+}
+
+.result-box h2 {
+    color: #1f3864;
+}
+
+/* Steps Area */
+.steps-box {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Memory Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #1f3864;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #666;
+    margin-top: 25px;
+}
